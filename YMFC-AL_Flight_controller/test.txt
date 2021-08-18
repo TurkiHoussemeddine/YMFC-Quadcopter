@@ -1,0 +1,10 @@
+ esc_1 = throttle - pid_output_pitch + pid_output_roll - pid_output_yaw;
+
+ -> pid_output_pitch = pid_p_gain_pitch * pid_error_temp + pid_i_mem_pitch + pid_d_gain_pitch * (pid_error_temp - pid_last_pitch_d_error);
+
+ 	-> pid_error_temp = gyro_pitch_input - pid_pitch_setpoint;
+
+ 		-> gyro_pitch_input = (gyro_pitch_input * 0.7) + ((gyro_pitch / 65.5) * 0.3);
+
+ 			-> gyro_pitch = gyro_axis[eeprom_data[29] & 0b00000011];       
+	
