@@ -22,6 +22,7 @@ problems from start to finish in relatively no time . Going through multiple ver
     - PID controllers
     - Registers 
     - I2C protocol 
+    - Spi protocol
     - Timers
     - Interrupts 
     - STM32F103C8T6
