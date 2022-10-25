@@ -4,7 +4,9 @@
 # Overview
 <br>
 
-- Demonstration video @ https://youtu.be/W5FBNZWYlRU .
+- Demonstration video 1 @ https://youtu.be/W5FBNZWYlRU .
+
+- Demonstration video 2 @ https://youtu.be/R1qTj2UFybA .
 
 - This project is done in the light of a learning process dedicated to understanding how aerial vehicules work and "think" .
 
